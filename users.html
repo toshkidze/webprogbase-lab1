@@ -5,15 +5,15 @@
   <title>MY FIRST SITE</title>
   <meta name="description" content="MY FIRST SITE DESCRIPTION">
   <meta name="author" content="MY NAME">
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 </head>
 <body>
 <header>
   <div class="container">
-    <h1 class="header_name">Cloud Mood</h1>
-    <img  src="images/logo.jpg" alt="lorem" class="logo_img">
+    <h1 id="header_name">Cloud Mood</h1>
+    <img  src="images/logo.png" alt="lorem" id="logo">
   </div>
 </header>
-<main>
 <div class="menu">
   <ul>
     <li><a href="index.html">Homepage</a></li>
@@ -21,12 +21,29 @@
     <li><a href="tasks.html">Playlists</a></li>
     <li><a href="about.html">About</a></li>
   </ul>
-</div>
 
-<ul>
-  <li><a href="users1.html">User1</a></li>
-  <li><a href="users2.html">User2</a></li>
-</ul>
+</div>
+<main>
+
+  <table id="users">
+    <tr>
+      <th>Login</th>
+      <th>Fullname</th>
+      <th>Registed</th>
+    </tr>
+    <tr>
+      <th><a href="users2.html">Eminem</a></th>
+      <th>Slim Shady</th>
+      <th>20/01/1987</th>
+    </tr>
+    <tr>
+      <th><a href="users1.html">69</a></th>
+      <th>6ix9ine</th>
+      <th>10/08/2018</th>
+    </tr>
+  </table>
+
 </main>
+
 </body>
 </html>
